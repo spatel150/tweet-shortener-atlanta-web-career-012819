@@ -14,7 +14,7 @@ def dictionary
 end
 
 def word_substituter(tweets)
-  
+  tweet.split(" ")
 end
 
 def bulk_tweet_shortener(array)
