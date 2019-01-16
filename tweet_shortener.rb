@@ -15,7 +15,8 @@ end
 
 def word_substituter(tweets)
   tweet.split(" ").map do |word|
-    if dictionary.keys.include? 
+    if dictionary.keys.include?(word.downcase)
+      
 end
 
 def bulk_tweet_shortener(array)
