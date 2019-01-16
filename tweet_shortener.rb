@@ -14,15 +14,7 @@ def dictionary
 end
 
 def word_substituter(tweets)
-  tweet = tweets.split(" ")
-  tweet.each_with_index do |words, index|
-    dictionary.keys.each do |a|
-      if a == words 
-        tweet[index] = dictionary[a]
-      end
-    end
-  end
-  tweet.join(" ")    
+  
 end
 
 def bulk_tweet_shortener(array)
